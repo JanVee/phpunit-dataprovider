@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="tests/Example" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.063859">
+    <testsuite name="Tests\Example\JsonTest" file="/www/phpComposerTools/phpunit-dataprovider/tests/Example/JsonTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.063859">
+      <testsuite name="Tests\Example\JsonTest::testDemo1" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.063800">
+        <testcase name="testDemo1 with data set #0" class="Tests\Example\JsonTest" classname="Tests.Example.JsonTest" file="/www/phpComposerTools/phpunit-dataprovider/tests/Example/JsonTest.php" line="22" assertions="1" time="0.063800"/>
+      </testsuite>
+      <testsuite name="Tests\Example\JsonTest::testMethod" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000059">
+        <testcase name="testMethod with data set #0" class="Tests\Example\JsonTest" classname="Tests.Example.JsonTest" file="/www/phpComposerTools/phpunit-dataprovider/tests/Example/JsonTest.php" line="32" assertions="1" time="0.000059"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

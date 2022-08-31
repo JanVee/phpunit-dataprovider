@@ -1,0 +1,33 @@
+{
+    "name": "integrating/phpunit-dataprovider",
+    "description": "A library for phpunit",
+    "type": "library",
+    "license": "MIT",
+    "autoload":
+    {
+        "psr-0":
+        {
+            "DataProvider": "src"
+        },
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Vee",
+            "email": "JanVee@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "phpunit/phpunit": "^8.0",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/property-access": "^2.8.52",
+        "symfony/serializer": "^2.8.52"
+    },
+    "require-dev": {}
+}
